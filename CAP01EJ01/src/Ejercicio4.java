@@ -1,6 +1,8 @@
 public class Ejercicio4 {
     public static void main(String[] args) {
         System.out.println("---------------------------------------------------------------------------");
+        System.out.printf("%-12s %-12s %-13s %-12s %-12s %-12s %n","","|Lunes","|Martes","|Miércoles","|Jueves|","Viernes |");
+        System.out.println("---------------------------------------------------------------------------");
         System.out.printf("%-12s %-12s %-13s %-12s %-12s %-12s %n","|8:15-9:15","|Progrmación","|Lenguajes","|Lenguajes","|Progrmación|","FOL    |");
         System.out.println("---------------------------------------------------------------------------");
         System.out.printf("%-12s %-12s %-13s %-12s %-12s %-12s %n","|9:15-10:15","|Progrmación","|Lenguajes","|Lenguajes","|Progrmación|","FOL    |");

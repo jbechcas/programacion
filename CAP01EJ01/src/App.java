@@ -4,7 +4,8 @@ public class App {
     public static void main(String[] args) throws Exception {
     System.out.println("Escriba el valor de a: ");
     Scanner sc = new Scanner (System.in);
-        int a=sc.nextInt();
+        int a;
+        a=sc.nextInt();
 
     System.out.println("Escriba el valor de b: "); //Escribimos por pantalla
         int b=sc.nextInt(); //Leemos el valor que indicamos
