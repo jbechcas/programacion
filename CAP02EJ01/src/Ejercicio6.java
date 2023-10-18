@@ -12,8 +12,8 @@ public class Ejercicio6 {
 
     // Impresión de los resultados
     System.out.printf("%-15s\t%5.2f%n", "Base imponible: ", base);
-    System.out.printf("%-15s\t%5.2f%n", "IVA", impuestoAlValorAgregado);
-    System.out.printf("%-15s\t%5.2f%n", "Total", total);
+    System.out.printf("%-15s\t\t%5.2f%n", "IVA", impuestoAlValorAgregado);
+    System.out.printf("%-15s\t\t%5.2f%n", "Total", total);
   }
 }
 
