@@ -1,15 +1,23 @@
 import java.util.Scanner;
 
 public class Ejercicio19 {
-    public static void dibujarTriangulo(int altura,String caracter){
-        for(int contador = 1;contador<=altura;contador++){
-            for(int contador2=altura;contador2>contador;contador2--){
+    public static void dibujarTriangulo(int n,String c){
+        for(int i = 1;i <= n; i++){
+            for (int j = n;j >= i;j--){
+                System.out.print(" ");
+                }
+            if(i == 1 || i == n){
+                for (int j = 1;j <= i*2-1;j++){
+                System.out.print(c);
+                }
+            }else{
+                System.out.print(c);
+                for (int j = 1;j <= (i*2)-3;j++){
                 System.out.print(" ");
             }
-            for(int contador3 = 1; contador3<=contador*2-1;contador3++){
-                System.out.print(caracter);
+            System.out.print(c);
             }
-            System.out.println(" ");
+                System.out.println(" ");
         }
     }
     public static void main(String[] args) {

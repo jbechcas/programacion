@@ -6,10 +6,12 @@ public class Ejercicio20 {
             for(int contador2=altura;contador2>contador;contador2--){
                 System.out.print(" ");
             }
-            for(int contador3 = 1; contador3<=contador*2-1;contador3++){
-                if(contador3==1 || contador3==altura){
-                    System.out.print(caracter);
+            for(int contador2 = 1; contador2<=contador*2-1;contador2++){
+                System.out.print(caracter);
+                for(int contador3 = 1;contador3<=contador2;contador3++){
+                    System.out.print(" ");
                 }
+                System.out.print(caracter);
             }
             System.out.println(" ");
         }
