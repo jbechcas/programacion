@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio35 {
+public class Ejercicio38 {
     public static void main(String[] args) {
         System.out.print("Introduce la altura de la x: ");
         Scanner sc = new Scanner (System.in);
