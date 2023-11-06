@@ -6,7 +6,6 @@ public class Ejercicio40 {
         Scanner sc = new Scanner (System.in);
         int altura = sc.nextInt();
         boolean salida = true;
-
         while (salida) {
             for(int i = 1;i<=altura/2+1;i++){
                 for(int j = altura/2+1;j>=i;j--){
