@@ -12,8 +12,14 @@ public class Ejercicio35 {
                     for(int j = 1;j<=i;j++){
                         System.out.print(" ");
                     }
-                    for(int j = altura-i+1;j>=i;j--){
+                    if(i==altura/2+1){
                         System.out.print("*");
+                    }else{
+                        System.out.print("*");
+                        for(int j = altura-i+1;j>=i+2;j--){
+                        System.out.print(" ");
+                    }
+                    System.out.print("*");
                     }
                     System.out.println(" ");
                 }
@@ -21,7 +27,13 @@ public class Ejercicio35 {
                 for(int j = altura/2+1;j>=i;j--){
                     System.out.print(" ");
                 }
-                for(int j = 1;j<=i*2-1;j++){
+                if(i == i*2-1){
+                    System.out.print("*");
+                }else{
+                    System.out.print("*");
+                    for(int j = 1;j<=i*2-3;j++){
+                        System.out.print(" ");
+                    }
                     System.out.print("*");
                 }
                 System.out.println(" ");
