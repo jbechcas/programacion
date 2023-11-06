@@ -16,7 +16,7 @@ public class Ejercicio27 {
         }
         System.out.println("");
         System.out.println("Total del multiplos de 3: " + multiplos);
-        System.out.printf("Suma de multiplos de 3:" + suma);
+        System.out.printf("Suma de multiplos de 3: " + suma);
         sc.close();
     }
 }
