@@ -24,7 +24,7 @@ public class Ejercicio14 {
                                 desplazamiento = adivinarnum + 1;
                                 break;
                             case 2:
-                                max = adivinarnum;
+                                max = adivinarnum - 1;
                                 break;
                             default:
                                 break;
