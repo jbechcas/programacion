@@ -25,7 +25,6 @@ public class Ejercicio22 {
                 }
             }
         }
-       
         sc.close();
     }
 }
