@@ -1,0 +1,7 @@
+{
+    "name": "Ejecutar archivo Python",
+    "type": "python",
+    "module": "nombre_del_archivo",
+    "workingDirectory": "$PROJECT_DIR$"
+}
+
