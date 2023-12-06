@@ -46,7 +46,6 @@ public class Ejercicio15 {
             }else{
                 System.out.print(notaString + " ");
             }
-            
             if (i%4==0 && i!=nnotas){
                 System.out.print("|");
             }

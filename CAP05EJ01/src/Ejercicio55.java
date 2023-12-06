@@ -28,7 +28,7 @@ public class Ejercicio55 {
         return num;
     }
     public static void main(String[] args) {
-        int num =  78201345;
+        int num = 78201345;
         num = InvertirNum(num);
         num = DesplazarNumero(num);
         num = InvertirNum(num);
